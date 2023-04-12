@@ -1,0 +1,133 @@
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+:.!# Created by https://www.toptal.com/developers/gitignore/api/swift,xcode,coco
+apods^M# Edit at https://www.toptal.com/developers/gitignore?templates=swift,xco
+DerivedData/
+*.dSYM.zip
+*.dSYM
+
+
+# CocoaPods
+# We recommend against adding the Pods directory to your .gitignore. However
+# Carthage
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+### Xcode ###
+
+## Xcode 8 and earlier
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# End of https://www.toptal.com/developers/gitignore/api/swift,xcode,cocoapods
+
+
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+:.!# Created by https://www.toptal.com/developers/gitignore/api/swift,xcode,coco
+apods^M# Edit at https://www.toptal.com/developers/gitignore?templates=swift,xco
+de,cocoapods^M^M### CocoaPods ###^M## CocoaPods GitIgnore Template^M^M# CocoaPod
+s - Only use to conserve bandwidth / Save time on Pushing^M#           - Also ha
+ndy if you have a large number of dependant pods^M#           - AS PER https://g
+uides.cocoapods.org/using/using-cocoapods.html NEVER IGNORE THE LOCK FILE^MPods/
+^M^M### Swift ###^M# Xcode^M#^M# gitignore contributors: remember to update Glob
+al/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore^M^M## User settings^
+Mxcuserdata/^M^M## compatibility with Xcode 8 and earlier (ignoring not required
+ starting Xcode 9)^M*.xcscmblueprint^M*.xccheckout^M^M## compatibility with Xcod
+e 3 and earlier (ignoring not required starting Xcode 4)^Mbuild/^MDerivedData/^M
+*.moved-aside^M*.pbxuser^M!default.pbxuser^M*.mode1v3^M!default.mode1v3^M*.mode2
+v3^M!default.mode2v3^M*.perspectivev3^M!default.perspectivev3^M^M## Obj-C/Swift
+specific^M*.hmap^M^M## App packaging^M*.ipa^M*.dSYM.zip^M*.dSYM^M^M## Playground
+s^Mtimeline.xctimeline^Mplayground.xcworkspace^M^M# Swift Package Manager^M# Add
+ this line if you want to avoid checking in source code from Swift Package Manag
+er dependencies.^M# Packages/^M# Package.pins^M# Package.resolved^M# *.xcodeproj
+^M# Xcode automatically generates this directory with a .xcworkspacedata file an
+d xcuserdata^M# hence it is not needed unless you have added a package configura
+tion file to your project^M# .swiftpm^M^M.build/^M^M# CocoaPods^M# We recommend
+against adding the Pods directory to your .gitignore. However^M# you should judg
+e for yourself, the pros and cons are mentioned at:^M# https://guides.cocoapods.
+org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-con
+trol^M# Pods/^M# Add this line if you want to avoid checking in source code from
+ the Xcode workspace^M# *.xcworkspace^M^M# Carthage^M# Add this line if you wan
