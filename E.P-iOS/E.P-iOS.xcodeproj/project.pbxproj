@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		4216759A29E65A490012EDB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216759929E65A490012EDB9 /* AppDelegate.swift */; };
 		4216759C29E65A490012EDB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216759B29E65A490012EDB9 /* SceneDelegate.swift */; };
-		4216759E29E65A490012EDB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216759D29E65A490012EDB9 /* ViewController.swift */; };
-		421675A129E65A490012EDB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4216759F29E65A490012EDB9 /* Main.storyboard */; };
 		421675A329E65A4A0012EDB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421675A229E65A4A0012EDB9 /* Assets.xcassets */; };
-		421675A629E65A4B0012EDB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421675A429E65A4B0012EDB9 /* LaunchScreen.storyboard */; };
 		421675B129E65A4B0012EDB9 /* E_P_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421675B029E65A4B0012EDB9 /* E_P_iOSTests.swift */; };
 		421675BB29E65A4B0012EDB9 /* E_P_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421675BA29E65A4B0012EDB9 /* E_P_iOSUITests.swift */; };
 		421675BD29E65A4B0012EDB9 /* E_P_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421675BC29E65A4B0012EDB9 /* E_P_iOSUITestsLaunchTests.swift */; };
+		4277139529ECF0D3007E611C /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4277139129ECF0D3007E611C /* NotoSansKR-Medium.otf */; };
+		4277139629ECF0D3007E611C /* Niconne-nRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4277139229ECF0D3007E611C /* Niconne-nRegular.ttf */; };
+		4277139729ECF0D3007E611C /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4277139329ECF0D3007E611C /* NotoSansKR-Regular.otf */; };
+		4277139829ECF0D3007E611C /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4277139429ECF0D3007E611C /* NotoSansKR-Bold.otf */; };
+		4277139B29ECF12C007E611C /* font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4277139A29ECF12C007E611C /* font.swift */; };
+		4277139D29ECF135007E611C /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4277139C29ECF135007E611C /* color.swift */; };
+		4277139F29ED2A9D007E611C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4277139E29ED2A9D007E611C /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +43,20 @@
 		4216759629E65A490012EDB9 /* E.P-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E.P-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4216759929E65A490012EDB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4216759B29E65A490012EDB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4216759D29E65A490012EDB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		421675A029E65A490012EDB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		421675A229E65A4A0012EDB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		421675A529E65A4B0012EDB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		421675A729E65A4B0012EDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		421675AC29E65A4B0012EDB9 /* E.P-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E.P-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		421675B029E65A4B0012EDB9 /* E_P_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_P_iOSTests.swift; sourceTree = "<group>"; };
 		421675B629E65A4B0012EDB9 /* E.P-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E.P-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		421675BA29E65A4B0012EDB9 /* E_P_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_P_iOSUITests.swift; sourceTree = "<group>"; };
 		421675BC29E65A4B0012EDB9 /* E_P_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_P_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4277139129ECF0D3007E611C /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		4277139229ECF0D3007E611C /* Niconne-nRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Niconne-nRegular.ttf"; sourceTree = "<group>"; };
+		4277139329ECF0D3007E611C /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		4277139429ECF0D3007E611C /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		4277139A29ECF12C007E611C /* font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = font.swift; sourceTree = "<group>"; };
+		4277139C29ECF135007E611C /* color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
+		4277139E29ED2A9D007E611C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,9 @@
 		4216759829E65A490012EDB9 /* E.P-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4216759929E65A490012EDB9 /* AppDelegate.swift */,
-				4216759B29E65A490012EDB9 /* SceneDelegate.swift */,
-				4216759D29E65A490012EDB9 /* ViewController.swift */,
-				4216759F29E65A490012EDB9 /* Main.storyboard */,
-				421675A229E65A4A0012EDB9 /* Assets.xcassets */,
-				421675A429E65A4B0012EDB9 /* LaunchScreen.storyboard */,
-				421675A729E65A4B0012EDB9 /* Info.plist */,
+				421675CA29E7C7DC0012EDB9 /* Sources */,
+				421675C929E7C60C0012EDB9 /* Resources */,
+				421675CD29E923BE0012EDB9 /* SuppoortingFiles */,
 			);
 			path = "E.P-iOS";
 			sourceTree = "<group>";
@@ -125,6 +129,62 @@
 				421675BC29E65A4B0012EDB9 /* E_P_iOSUITestsLaunchTests.swift */,
 			);
 			path = "E.P-iOSUITests";
+			sourceTree = "<group>";
+		};
+		421675C929E7C60C0012EDB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4277139E29ED2A9D007E611C /* Launch Screen.storyboard */,
+				421675D129E9259D0012EDB9 /* Fonts */,
+				421675A229E65A4A0012EDB9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		421675CA29E7C7DC0012EDB9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4277139929ECF10D007E611C /* ResourceCode */,
+				421675D029E925730012EDB9 /* Application */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		421675CD29E923BE0012EDB9 /* SuppoortingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				421675A729E65A4B0012EDB9 /* Info.plist */,
+			);
+			path = SuppoortingFiles;
+			sourceTree = "<group>";
+		};
+		421675D029E925730012EDB9 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4216759929E65A490012EDB9 /* AppDelegate.swift */,
+				4216759B29E65A490012EDB9 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		421675D129E9259D0012EDB9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4277139229ECF0D3007E611C /* Niconne-nRegular.ttf */,
+				4277139429ECF0D3007E611C /* NotoSansKR-Bold.otf */,
+				4277139129ECF0D3007E611C /* NotoSansKR-Medium.otf */,
+				4277139329ECF0D3007E611C /* NotoSansKR-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4277139929ECF10D007E611C /* ResourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				4277139A29ECF12C007E611C /* font.swift */,
+				4277139C29ECF135007E611C /* color.swift */,
+			);
+			path = ResourceCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +291,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				421675A629E65A4B0012EDB9 /* LaunchScreen.storyboard in Resources */,
+				4277139F29ED2A9D007E611C /* Launch Screen.storyboard in Resources */,
+				4277139629ECF0D3007E611C /* Niconne-nRegular.ttf in Resources */,
+				4277139529ECF0D3007E611C /* NotoSansKR-Medium.otf in Resources */,
 				421675A329E65A4A0012EDB9 /* Assets.xcassets in Resources */,
-				421675A129E65A490012EDB9 /* Main.storyboard in Resources */,
+				4277139829ECF0D3007E611C /* NotoSansKR-Bold.otf in Resources */,
+				4277139729ECF0D3007E611C /* NotoSansKR-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +321,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4216759E29E65A490012EDB9 /* ViewController.swift in Sources */,
+				4277139B29ECF12C007E611C /* font.swift in Sources */,
 				4216759A29E65A490012EDB9 /* AppDelegate.swift in Sources */,
+				4277139D29ECF135007E611C /* color.swift in Sources */,
 				4216759C29E65A490012EDB9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,25 +359,6 @@
 			targetProxy = 421675B729E65A4B0012EDB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4216759F29E65A490012EDB9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				421675A029E65A490012EDB9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		421675A429E65A4B0012EDB9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				421675A529E65A4B0012EDB9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		421675BE29E65A4B0012EDB9 /* Debug */ = {
