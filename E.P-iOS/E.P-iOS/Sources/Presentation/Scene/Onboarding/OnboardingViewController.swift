@@ -10,28 +10,21 @@ class OnboardingViewController: UIViewController {
         $0.text = "Save Energy \nPractice Yourself"
         $0.numberOfLines = 2
         $0.font = .niconneFont(ofSize: 45, alone: .regular)
-        $0.textColor = .brown
+        $0.textColor = .black
     }
     private let googleLoginButton = UIButton(type: .system).then {
-        $0.backgroundColor = .orange
+        $0.backgroundColor = .green1
         $0.setTitleColor(.white, for: .normal)
         $0.setTitle("Google 계정으로 로그인", for: .normal)
         $0.titleLabel?.font = .notoSansFont(ofSize: 18, family: .bold)
         $0.contentHorizontalAlignment = .center
         $0.layer.cornerRadius = 5
     }
-    private let facebookLoginButton = UIButton(type: .system).then {
-        $0.backgroundColor = .yellow
-        $0.setTitleColor(.brown, for: .normal)
-        $0.setTitle("Facebook 계정으로 로그인", for: .normal)
-        $0.titleLabel?.font = .notoSansFont(ofSize: 18, family: .bold)
-        $0.contentHorizontalAlignment = .center
-        $0.layer.cornerRadius = 5
-    }
+
     // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .mainColor
+        view.backgroundColor = .white
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -46,7 +39,7 @@ class OnboardingViewController: UIViewController {
 // MARK: - Layout
 extension OnboardingViewController {
     func addSubviews() {
-        [noticeLabel, googleLoginButton, facebookLoginButton].forEach { view.addSubview($0) }
+        [noticeLabel, googleLoginButton].forEach { view.addSubview($0) }
     }
 
     func makeSubviewConstraints() {
@@ -55,14 +48,9 @@ extension OnboardingViewController {
             $0.centerX.equalToSuperview()
         }
         googleLoginButton.snp.makeConstraints {
-            $0.top.lessThanOrEqualTo(noticeLabel.snp.bottom).offset(297)
+            $0.top.lessThanOrEqualTo(noticeLabel.snp.bottom).offset(350)
             $0.height.equalTo(43)
             $0.leading.trailing.equalToSuperview().inset(28)
         }
-        facebookLoginButton.snp.makeConstraints {
-            $0.top.lessThanOrEqualTo(googleLoginButton.snp.bottom).offset(14)
-            $0.height.equalTo(43)
-            $0.leading.trailing.equalToSuperview().inset(28)
-        }
-        }
+    }
 }
