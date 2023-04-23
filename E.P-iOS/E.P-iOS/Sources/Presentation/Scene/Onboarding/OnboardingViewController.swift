@@ -10,7 +10,6 @@ class OnboardingViewController: UIViewController {
         $0.text = "Save Energy \nPractice Yourself"
         $0.numberOfLines = 2
         $0.font = .niconneFont(ofSize: 45, alone: .regular)
-        $0.textColor = .black
     }
     private let googleLoginButton = UIButton(type: .system).then {
         $0.backgroundColor = .green1
