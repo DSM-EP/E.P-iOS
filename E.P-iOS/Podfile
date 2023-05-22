@@ -8,6 +8,7 @@ target 'E.P-iOS' do
 pod 'SnapKit'
 pod 'Then'
 pod 'RxSwift'
+pod 'RxCocoa'
 
   # Pods for E.P-iOS
 
